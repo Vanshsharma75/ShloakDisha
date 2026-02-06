@@ -177,3 +177,4 @@ docker-compose.yml
 # Other
 .turbo/
 .husky/
+shloakdisha/.env
