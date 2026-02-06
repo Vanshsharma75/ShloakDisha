@@ -1,0 +1,179 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+*.lcov
+
+# Build Files
+/build
+/dist
+out/
+
+# Backend Build
+server/dist/
+server/build/
+
+# Frontend Build
+shloakdisha/build/
+shloakdisha/dist/
+shloakdisha/.next/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.env.swp
+*.sublime-project
+*.sublime-workspace
+.eslintcache
+
+# OS Files
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+*.exe
+*.dll
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Cache
+.cache/
+.eslintcache
+.prettierignore
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+mongo-data/
+data/
+
+# Temporary Files
+temp/
+tmp/
+*.tmp
+.temp
+
+# Package Manager Lock Files (Optional - uncomment if needed)
+# package-lock.json
+# yarn.lock
+
+# Secrets & Credentials
+.aws/
+.ssh/
+.credentials
+secrets/
+*.pem
+*.key
+
+# API Keys & Tokens (Extra Safety)
+mistral_key.txt
+openai_key.txt
+huggingface_token.txt
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+
+# Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# IntelliJ
+*.iml
+*.iws
+*.ipr
+.idea/
+*.swp
+*.swo
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Electron
+dist/
+dist_electron/
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Development
+.env.development
+.env.test
+
+# Server specific
+server/uploads/
+server/public/uploads/
+server/node_modules/
+server/coverage/
+
+# Frontend specific
+shloakdisha/node_modules/
+shloakdisha/coverage/
+shloakdisha/.next/
+shloakdisha/out/
+
+# Git
+.git/
+.gitmodules
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# CI/CD
+.github/workflows/secrets.yml
+
+# Production
+.vercel
+.now
+.netlify
+
+# Other
+.turbo/
+.husky/

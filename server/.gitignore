@@ -1,0 +1,80 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# Dependencies
+node_modules/
+/.pnp
+
+# Testing
+/coverage
+*.lcov
+
+# Build Files
+/dist
+/build
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Cache
+.cache/
+.eslintcache
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+mongo-data/
+
+# Temporary Files
+temp/
+tmp/
+*.tmp
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Secrets & Credentials
+.aws/
+.ssh/
+*.pem
+*.key
+secrets/
+
+# API Keys
+mistral_key.txt
+openai_key.txt
+huggingface_token.txt
+
+# Uploads & Media
+uploads/
+public/uploads/
+media/
+
+# Testing
+.nyc_output
+.env.test
+
+# Development
+.env.development
+
+# Other
+.turbo/
