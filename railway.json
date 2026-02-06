@@ -1,0 +1,12 @@
+{
+  "build": {
+    "builder": "NIXPACKS",
+    "buildCommand": "cd server && npm install",
+    "startCommand": "cd server && npm start"
+  },
+  "deploy": {
+    "startCommand": "cd server && npm start",
+    "healthcheckPath": "/api/auth/profile",
+    "restartPolicyMaxRetries": 3
+  }
+}
